@@ -1,0 +1,120 @@
+body{
+    background: rgb(133, 191, 245);
+}
+.maincontainer{
+    display: flex;
+}
+.container{
+    width:100%;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 60px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd,#571094);
+    color: white;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+
+}
+.inputbox{
+    position: relative;
+    width: auto;
+    max-width:400px;
+    min-height: 100px;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inputbox img{
+    width: 25px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+
+.Contact{
+    color: white;
+    margin: 70px;
+    padding: 10px;
+    list-style: none;
+    width:auto;
+}
+h2{
+    margin-left: 0;
+    background: #46CFCA;
+    background: linear-gradient(to left, #9418fd 0%,#571094 61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+}
+.Contact li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 1000px) {
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .Contact{
+        color:white;
+        margin: 20px;
+        padding: 10px;
+        list-style: none;
+        width:80%;
+    }
+    h2{
+        margin-left: 0;
+    }
+    .Contact li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        width: 80%;
+        border-radius: 20px;
+        margin: 10%;
+        padding: 2%;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        width: auto;
+        border-radius: 20px;
+        margin: 10%;
+        padding: 2%;
+    }
+}
